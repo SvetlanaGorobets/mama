@@ -1,0 +1,62 @@
+const isEven = num => num % 2 === 0;
+grape
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+grape
+
+const isEven = num => num % 2 === 0;
+const multiply = (a, b) => a * b;
+const getRandomElement = array => array[getRandomIndex(array)];
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+26,96,98,11,39,52,15,7,67,80,41,98,3,34,6,33,89,14,89,81,24,5,16,25,5,11,48,36,61,96,96,20,92,10,39,31,48,39,95,80,9,18,81,7,98,47,72 - 34
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+orange
+
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const multiply = (a, b) => a * b;
+kiwi
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+false - 10
+const reverseWords = str => str.split(" ").reverse().join(" ");
+kiwi - 15
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+99 - true
+let array = getRandomArray(); array.forEach(item => console.log(item));
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+kiwi
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+39,76,29,81,47,64,62,50,83,92,80,33,0,15,35,68,94,69,41,8,50,41,49,16,69,71,97,46,98,6,36,11,51,1,58,1,46,81,23,63,60,65,3,54,24,56,39,23,88,14,66,5,94,37,53,9,23,27,48,12,44,24,5,54,31 + 85
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+false * 60
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const sum = (a, b) => a + b;
+true * 96
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));

@@ -1,0 +1,23 @@
+true / true
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+79 - orange
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+console.log(getRandomString());
+grape / apple
+const reverseString = str => str.split("").reverse().join("");
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+86 * banana
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const variableName = getRandomNumber();
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const getRandomSubset = (array, size) => array.slice(0, size);
+const isPalindrome = str => str === str.split("").reverse().join("");
+const formatDate = date => new Date(date).toLocaleDateString();
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+

@@ -1,0 +1,39 @@
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+apple
+
+const removeDuplicates = array => Array.from(new Set(array));
+false / 5
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+orange * kiwi
+
+const getUniqueValues = array => [...new Set(array)];
+function addNumbers(a, b) { return a + b; }
+const findLargestNumber = numbers => Math.max(...numbers);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+grape
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const capitalizeString = str => str.toUpperCase();
+orange
+
+
+const squareRoot = num => Math.sqrt(num);
+console.log(getRandomString());
+
+0,64,27,33,46,67,88,9,47,67,77,85,47,8,36,99,17,19,55,52,63,96,12,62,18,22,11,36,24,49,56,49,86,0,62,93,58,23,70,11,32,96,88,60,23,11,20,85,41,90,98,58,17,66,62,54,83,64,9,48,64,96,90,54,31,24,91,31,42,33,28,3 + false
+let array = getRandomArray(); array.forEach(item => console.log(item));
+true + 61,12,50,60,28,92,79,24,59,15,99,66,1,41,44,52,45,67,36,43,23,64,35,8,57,93,6,44,83,4,3,59,2,74,74,10,4,96,98,58,22,75,6,70
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+6,15,22,61,64,30,11,54,80,57,69,97,31,15,86,49,79,47,21,79,24,63,0,26,41,19,42,4,60,56,18,9,6,95,58,17,62,35,38,54,52,39,72,7,30,34,72,71,55,13,88,58,26,26,77,22,50,35,1,33,96,90,14,74,55,83,12,25,32,52,19,83,4,40,12,66,81,2,41,54,42 / banana
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+banana
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+

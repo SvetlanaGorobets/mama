@@ -1,0 +1,10 @@
+const squareRoot = num => Math.sqrt(num);
+grape
+
+
+const getRandomElement = array => array[getRandomIndex(array)];
+48 + 1,62,89,56,0,54,71,21,60,20,14,49,42,3,72,81,91,65,8,42,7,34,40,9,91,63,72,32,16,56,94,51,85,57,99,70
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+// This is a comment
+
